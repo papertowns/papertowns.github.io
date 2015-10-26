@@ -1,0 +1,460 @@
+html {
+  background-color: #eeeeee;
+  width: 100%;
+  font-family: "Open Sans", Sans Serif;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#toolbar {
+  position: fixed;
+  left: -1%;
+  top: -8%;
+  width: 102%;
+  height: 10em;
+  -webkit-transform: rotate(-2deg);
+      -ms-transform: rotate(-2deg);
+          transform: rotate(-2deg);
+  margin: 0;
+  background-color: #254d69;
+  z-index: 300;
+}
+
+#title {
+  position: fixed;
+  height: 5em;
+  width: 18em;
+  -webkit-transform: rotate(2deg);
+      -ms-transform: rotate(2deg);
+          transform: rotate(2deg);
+  left: 2%;
+  padding-left: 1em;
+  font-family: 'Fredoka One';
+  font-size: 1.2em;
+  padding-top: 3.2em;
+  color: #eeeeee;
+}
+
+#title h1 {
+  padding-top: .3em;
+}
+
+#meat {
+  width: 103.72487%;
+  height: 182em;
+  background-color: #eeeeee;
+  position: relative;
+  left: -1.479879%;
+}
+
+#image {
+  height: 15%;
+  width: 100.75%;
+  right: .75%;
+  background-image: url(http://qiroadmap.org/wp-content/uploads/2013/01/RoadMap.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#words {
+  height: 100em;
+  width: 101.05%;
+  background-color: #eeeeee;
+  position: relative;
+  top: -1.8em;
+  left: -3px;
+}
+
+#minititle {
+  width: 100.65%;
+  left: -.685%;
+  height: 5.5em;
+  text-align: center;
+  padding-top: 0%;
+  font-family: 'Fredoka One';
+  position: relative;
+  font-size: 1.2em;
+  background-color: #eeeeee;
+}
+
+#minititle h1 {
+  padding-top: 3%;
+  font-style: italic;
+  color: #333333;
+}
+
+#minititle h3 {
+  position: relative;
+  top: -1em;
+  font-family: 'Open Sans';
+  font-weight: 300;
+}
+
+.paragraphs {
+  padding: .5em;
+  font-family: "Open Sans", Sans Serif;
+  font-size: 1.1em;
+  text-indent: 2em;
+  color: #333333;
+  background-color: #eeeeee;
+  position: relative;
+  margin-bottom: .5em;
+}
+
+#paragraphs1 {
+  padding-bottom: 0;
+}
+
+#paragraphs2 {
+  padding-top: 0;
+}
+
+#images {
+  width: 100%;
+  height: 59em;
+  background-color: #eeeeee;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 100;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: left;
+  -webkit-justify-content: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+#landscape {
+  width: 100%;
+  height: 15em;
+  background-image: url("http://img05.deviantart.net/116a/i/2010/326/6/6/you_will_go_to_the_paper_towns_by_morethanaghost-d33f670.jpg");
+  background-position: 40% 80%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  margin: 0 auto;
+}
+
+#portrait1 {
+  width: 15em;
+  height: 22em;
+  background-image: url("https://c1.staticflickr.com/9/8303/7974407622_29e23a4e06_b.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  margin: 0 auto;
+}
+
+#portrait2 {
+  width: 15em;
+  height: 22em;
+  margin: 0 auto;
+  background-image: url("http://i.huffpost.com/gen/2712158/thumbs/o-PAPER-TOWNS-POSTER-570.jpg?7");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.miniimages p {
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+#end {
+  width: 105%;
+  height: 10em;
+  background-color: #333333;
+  color: #eeeeee;
+  font-family: 'Open Sans';
+  position: relative;
+  left: -.5em;
+  bottom: -1em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 200;
+}
+
+#endchildren {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 0 auto;
+}
+
+#endtext {
+  text-align: center;
+}
+
+#endtext h4 {
+  margin: .25em;
+  margin-top: 1.25em;
+}
+
+#endtext p {
+  font-size: 1.5em;
+  margin: .25em;
+  margin-bottom: .20em;
+  font-weight: 300;
+}
+
+#button {
+  border: .3em #111 solid;
+  padding: .5em;
+}
+
+#viewcode {
+  text-align: center;
+  width: 7em;
+  margin: 0 auto;
+  text-decoration: none;
+  color: #eeeeee;
+  background-color: #254d69;
+  -webkit-transition: background-color .3s, color .2s;
+          transition: background-color .3s, color .2s;
+}
+
+#viewcode:hover {
+  background-color: #eeeeee;
+  color: #111;
+}
+
+@media only screen and (min-width: 315px) {
+  #meat {
+    margin-bottom: 89em;
+  }
+}
+@media only screen and (min-width: 335px) {
+  #end {
+    height: 10em;
+  }
+
+  #meat {
+    margin-bottom: 84em;
+  }
+}
+@media only screen and (min-width: 360px) {
+  #end {
+    margin-top: 3.5em;
+  }
+
+  #meat {
+    margin-bottom: 67.5em;
+  }
+
+  #endtext p {
+    margin-bottom: .70em;
+  }
+}
+@media only screen and (min-width: 380px) {
+  #meat {
+    margin-bottom: 58.5em;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #title {
+    left: -2%;
+    font-size: 1.15em;
+    padding-top: 3.5em;
+  }
+
+  #minititle {
+    font-size: 1em;
+  }
+
+  #image {
+    background-position: 70%;
+  }
+}
+@media only screen and (min-width: 401px) {
+  .paragraphs {
+    padding: 1.25em;
+  }
+
+  #image {
+    background-position: 58%;
+  }
+
+  #meat {
+    height: 194em;
+  }
+
+  #end {
+    margin-top: 0;
+  }
+}
+@media only screen and (min-width: 425px) {
+  #meat {
+    height: 181.5em;
+  }
+}
+@media only screen and (min-width: 450px) {
+  #meat {
+    height: 171em;
+  }
+}
+@media only screen and (min-width: 470px) {
+  #meat {
+    height: 161em;
+  }
+
+  #end {
+    bottom: -2em;
+  }
+
+  #title h1 {
+    margin-left: -.3em;
+  }
+}
+@media only screen and (min-width: 500px) {
+  #meat {
+    height: 148.75em;
+  }
+}
+@media only screen and (min-width: 539px) {
+  #meat {
+    height: 138.25em;
+  }
+}
+@media only screen and (max-width: 599px) {
+  #toolbar {
+    height: 7em;
+  }
+
+  #title {
+    top: -1.75em;
+  }
+}
+@media only screen and (min-width: 600px) {
+  #title {
+    font-size: 1.8em;
+    padding-top: .05em;
+  }
+
+  #toolbar {
+    height: 7.75em;
+  }
+
+  #landscape {
+    margin-left: 7%;
+  }
+
+  #meat {
+    height: 124em;
+  }
+}
+@media only screen and (min-width: 650px) {
+  #meat {
+    height: 112em;
+  }
+}
+@media only screen and (min-width: 690px) {
+  #image {
+    height: 20%;
+  }
+}
+@media only screen and (min-width: 770px) {
+  #meat {
+    height: 98.5em;
+  }
+}
+@media only screen and (min-width: 825px) {
+  .paragraphs {
+    padding: 3.5em;
+    padding-top: 1em;
+  }
+
+  #image {
+    height: 28%;
+  }
+
+  #images {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 44em;
+  }
+
+  #portrait1 {
+    display: inline-block;
+    width: 17em;
+    float: left;
+  }
+
+  #portrait2 {
+    display: inline-block;
+    width: 14.9em;
+    float: right;
+  }
+
+  #landscape {
+    height: 20em;
+  }
+
+  #meat {
+    height: 100em;
+  }
+}
+@media only screen and (min-width: 895px) {
+  #portrait1 {
+    height: 28em;
+    width: 21.5em;
+  }
+
+  #portrait2 {
+    height: 28em;
+    width: 19em;
+  }
+
+  #landscape {
+    height: 22em;
+  }
+
+  #images {
+    height: 50em;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .paragraphs {
+    display: inline-block;
+    width: 45%;
+    padding: 2.5%;
+    padding-top: 0em;
+    margin-top: 1.5em;
+  }
+
+  #paragraphs1 {
+    float: left;
+    margin-left: -.25em;
+  }
+
+  #paragraphs2 {
+    margin-right: -.25em;
+    margin-bottom: 5.5em;
+    border-left: 0.5em #333333 solid;
+  }
+
+  #image {
+    height: 35%;
+  }
+}
